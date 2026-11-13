@@ -2624,7 +2624,7 @@ const Menu = (() => {
    1. Renseignez client + slot ci-dessous (fournis par AdSense).
    2. N'appelez initAds() qu'APRÈS le consentement RGPD (bannière CMP).
    Tant que ADS.client est vide, l'espace réservé reste affiché. */
-const ADS = { client: '', slot: '' }; // ex. { client: 'ca-pub-1234567890123456', slot: '1234567890' }
+const ADS = { client: 'ca-pub-7548501184104243', slot: '' }; // ex. { client: 'ca-pub-1234567890123456', slot: '1234567890' }
 function initAds() {
   const box = document.getElementById('ad-slot');
   if (!ADS.client || !box || window.__adsOn) return;
